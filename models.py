@@ -9,7 +9,7 @@ from sqlalchemy.orm import relationship,sessionmaker
 from datetime import datetime
 
 from sqlalchemy import create_engine
-DATABASE_URL='postgresql://postgres:Nazo@localhost:5432/flaskapi'
+DATABASE_URL= 'postgresql://postgres:Mohamed2525@localhost:5432/expense_flask'
 
 
 engine = create_engine(
